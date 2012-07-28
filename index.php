@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <title>Weather</title>
 		<meta name="apple-mobile-web-app-capable" content="yes"/>
-		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 		<meta name="viewport" content="width=device-width,user-scalable = no"/>
        	<style media="screen">
 			body {
