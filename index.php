@@ -86,6 +86,7 @@
 	
 		<div id='weather_container'></div>
 			<?php
+			/*
 			function object2array($object) { return @json_decode(@json_encode($object),1); }
 			$url = 'http://www.google.com/ig/api?weather=Paris%20france';
 			$xml_content  = file_get_contents($url);
@@ -94,6 +95,12 @@
 			$xml = json_decode(json_encode((array) simplexml_load_string($xml_content)), 1);
 
 			//print_r($xml);
-			//echo "hgds";?>
+			//echo "hgds";
+			*/?>
+			<div id="appModeNote">
+					<em>Go Full Screen!</em>
+					<span>Use the "Add to Home Screen" Feature</span>
+				</div>
+			
 	</body>
 </html>
