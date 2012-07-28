@@ -10,7 +10,7 @@
 			body {
 				background-color :  #aaa;
 			}
-			div#weather_container { width : 400px;height : 250px}
+			div#weather_container { width : 320px;height : 250px}
          </style>
 		<script src='js/jquery-1.7.2.min.js'></script>
         <script src="js/raphael.js"></script>
