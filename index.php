@@ -74,6 +74,11 @@
 					}
 
 				});
+				
+				document.addEventListener('touchstart', function(event) {
+				    // Prevent text selection
+				    //event.preventDefault();
+				}, false);
 
 			</script>
         <script type="text/javascript">
