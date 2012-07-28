@@ -19,7 +19,7 @@
 
 				// When the DOM is ready, init the scripts.
 				$(function(){
-						document.addEventListener('touchstart', function(event) {
+						document.addEventListener('touchmove', function(event) {
 						    // Prevent text selection
 						    event.preventDefault();
 						}, false);
