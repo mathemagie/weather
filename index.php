@@ -19,6 +19,11 @@
 
 				// When the DOM is ready, init the scripts.
 				$(function(){
+						document.addEventListener('touchstart', function(event) {
+						    // Prevent text selection
+						    event.preventDefault();
+						}, false);
+					
 
 					// Get a reference to the app mode note.
 					var appModeNote = $( "#appModeNote" );
@@ -75,11 +80,7 @@
 
 				});
 				
-				document.addEventListener('touchstart', function(event) {
-				    // Prevent text selection
-				    //event.preventDefault();
-				}, false);
-
+			
 			</script>
         <script type="text/javascript">
             window.onload = function () {
