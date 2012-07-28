@@ -10,7 +10,7 @@
 			body {
 				background-color :  #aaa;
 			}
-			div#weather_container { width : 600px;height : 600px}
+			div#weather_container { width : 400px;height : 250px}
          </style>
 		<script src='js/jquery-1.7.2.min.js'></script>
         <script src="js/raphael.js"></script>
@@ -98,9 +98,7 @@
 			//echo "hgds";
 			*/?>
 			<div id="appModeNote">
-					<em>Go Full Screen!</em>
-					<span>Use the "Add to Home Screen" Feature</span>
-				</div>
+			</div>
 			
 	</body>
 </html>
