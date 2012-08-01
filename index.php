@@ -105,7 +105,7 @@
 		<div id='container'>
 			<ul>
 				<li><div id='weather_container'></div></li>
-				<li><div id='day'>31 juillet 2012</div><div id='temp'>20 °</div></li>
+				<li><div id='day'>1 août 2012</div><div id='temp'>20 °</div></li>
 				
 				
 			</ul>
